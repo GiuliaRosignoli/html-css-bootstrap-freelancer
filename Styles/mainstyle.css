@@ -24,4 +24,12 @@ h4 {
     background-color: dodgerblue;
 }
 
- 
+.temporary-bg {
+    height: 500px; /* TEMPORARY!!! */
+    background-color: rgb(99, 42, 173);
+}
+
+footer {
+    height: 300px; /*TEMPORARY!!! */
+    background-color: rgb(4, 72, 139);
+}
