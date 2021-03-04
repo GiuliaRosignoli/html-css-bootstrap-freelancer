@@ -1,5 +1,5 @@
-header {
-    background-color: rgb(197, 96, 113);
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -9,10 +9,51 @@ h4 {
     text-align: center;
 }
 
-.lower.header-content {
-    background-color: rgb(183, 183, 214);
+/* HEADER */
+
+header, .lower.header-content.ta-bg {   
+    background-color: rgb(79, 190, 185);
+}
+
+.lower.header-content.ta-bg {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
     text-align: center;
-    height: 300px; /*TEMPORARY!!! */
+    color: #fff;
+}
+
+.ta-nav-set {
+    height: 90px;
+    background-color: rgb(39, 39, 61);
+}
+
+.navbar > .container .navbar-brand {
+    padding-top: 28px;
+}
+
+ .navbar-default .navbar-nav {
+    padding-top: 15px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li >a {
+   font-weight: 500;
+    color: #fff;  
+}
+
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(167, 206, 245);
+}
+
+/* LOWER HEADER */
+
+.fa-star.ta-icon {
+    padding: 15px;
+}
+
+.ta-img-set {
+    max-width: 200px;
+    height: auto;
 }
 
 .hero {
