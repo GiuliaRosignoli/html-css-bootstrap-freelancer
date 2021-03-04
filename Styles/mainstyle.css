@@ -12,7 +12,8 @@ h4 {
 /* HEADER */
 
 header, .lower.header-content.ta-bg {   
-    background-color: rgb(79, 190, 185);
+    background-color: rgb(12, 223, 188);
+    padding-bottom: 35px;
 }
 
 .lower.header-content.ta-bg {
@@ -32,7 +33,7 @@ header, .lower.header-content.ta-bg {
     padding-top: 28px;
 }
 
- .navbar-default .navbar-nav {
+.navbar-default .navbar-nav {
     padding-top: 15px;
 }
 
@@ -54,12 +55,10 @@ header, .lower.header-content.ta-bg {
 .ta-img-set {
     max-width: 200px;
     height: auto;
-}
+} 
 
-.hero {
-    height: 590px; /*TEMPORARY!!! */
-    background-color: rgb(20, 221, 20);
-}
+/* JUMBOTRON - previous hero */
+
 
 .about.container {
     background-color: dodgerblue;
