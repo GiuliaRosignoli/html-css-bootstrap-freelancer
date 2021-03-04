@@ -9,12 +9,20 @@ h4 {
     text-align: center;
 }
 
+/* UTILITIES */
+
+.full-width {
+    width: 100%;
+}
+
+
 /* HEADER */
 
-header, .lower.header-content.ta-bg {   
+.full-width, .lower.header-content.ta-bg {   
     background-color: rgb(12, 223, 188);
     padding-bottom: 35px;
 }
+
 
 .lower.header-content.ta-bg {
     padding: 20px;
@@ -29,11 +37,15 @@ header, .lower.header-content.ta-bg {
     background-color: rgb(39, 39, 61);
 }
 
-.navbar > .container .navbar-brand {
+.navbar.ta-nav-set {
+    margin-bottom: 0;
+}
+
+.navbar > .container .navbar-brand.ta-nav-brand {
     padding-top: 28px;
 }
 
-.navbar-default .navbar-nav {
+.navbar-default .navbar-nav.ta-navbar {
     padding-top: 15px;
 }
 
@@ -52,12 +64,24 @@ header, .lower.header-content.ta-bg {
     padding: 15px;
 }
 
+.ta-span {
+    display: inline block;
+    border: 1px solid red;
+    line-height: 3px;
+    border-radius: 8px;
+}
+
 .ta-img-set {
     max-width: 200px;
-    height: auto;
+    height: auto; 
 } 
 
 /* JUMBOTRON - previous hero */
+
+.img-thumbnail.ta-img {
+    background-color: #fff;
+    border: none;
+}
 
 
 .about.container {
@@ -65,7 +89,6 @@ header, .lower.header-content.ta-bg {
 }
 
 .temporary-bg {
-    height: 500px; /* TEMPORARY!!! */
     background-color: rgb(99, 42, 173);
 }
 
