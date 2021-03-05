@@ -151,6 +151,17 @@ h3 {
     font-size: 40px;
 }
 
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.ta-form-group {
+   width: 70%;
+   border-top: none;
+   border-bottom: 1px solid rgba(208, 218, 215, 0.767);
+}
 
 /*FOOTER */
 
