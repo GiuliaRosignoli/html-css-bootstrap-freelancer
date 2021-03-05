@@ -163,6 +163,16 @@ h3 {
    border-bottom: 1px solid rgba(208, 218, 215, 0.767);
 }
 
+.form-control.ta-form-group {
+    height: 140px;
+}
+
+.btn.btn-default.ta-submit {
+    margin-top: 10px;
+    background-color:  rgb(12, 223, 188);
+    color: #fff;
+}
+
 /*FOOTER */
 
 footer .upper-footer {
