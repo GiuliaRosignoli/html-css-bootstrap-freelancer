@@ -11,8 +11,12 @@ h4 {
 
 /* UTILITIES */
 
-.full-width {
+.full-width, .full-width-white {
     width: 100%;
+}
+
+.full-width-white.ta-bg .jumbotron{
+    background-color: red;
 }
 
 
@@ -64,9 +68,11 @@ h4 {
     padding: 15px;
 }
 
-.ta-span {
+.vertical-align .ta-span {
     display: inline block;
-    border: 1px solid red;
+    width: 100px;
+    height: 20px;
+    background-color: #fff;
     line-height: 3px;
     border-radius: 8px;
 }
@@ -76,17 +82,15 @@ h4 {
     height: auto; 
 } 
 
+
 /* JUMBOTRON - previous hero */
 
+
 .img-thumbnail.ta-img {
-    background-color: #fff;
-    border: none;
+    padding-bottom: 30px;
+    border: 1px solid transparent;
 }
 
-
-.about.container {
-    background-color: dodgerblue;
-}
 
 .temporary-bg {
     background-color: rgb(99, 42, 173);
