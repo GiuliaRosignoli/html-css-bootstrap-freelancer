@@ -221,3 +221,10 @@ footer .lower-footer {
     border: 1px solid white;
     border-radius: 50%;
 }
+
+.lower-footer-text {
+    position: relative;
+    left: 600px;
+    padding: 50px;
+    color: #fff;
+}
