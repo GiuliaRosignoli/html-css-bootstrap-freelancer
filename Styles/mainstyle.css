@@ -113,6 +113,18 @@ h3 {
     padding-bottom: 30px;
 }
 
+.btn-default.ta-button {
+    background-color:  rgb(12, 223, 188);
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.fa-download.ta-icon {
+    padding: 10px;
+}
+
+/*FOOTER */
 
 footer .upper-footer {
     background-color: rgb(62, 62, 99);
