@@ -10,6 +10,8 @@ h3 {
     text-align: center;
 }
 
+
+
 /* UTILITIES */
 
 .full-width.ta-bg, .full-width-white {
@@ -25,10 +27,28 @@ h3 {
 }
 
 .ta-space {
-    margin-top: 50px;
-    padding-top: 40px;
+    margin-top: 15px;
+    padding-top: 20px;
 }
 
+.divider {
+    width: 300px;
+    margin: auto;
+}
+
+.ta-span {
+    display: inline-block;
+    width: 30%;
+    height: 4px;  
+}
+
+.ta-span.white {
+    background-color: #fff;
+}
+
+.divider {
+    margin-bottom: 20px;
+}
 
 /* HEADER */
 
@@ -87,42 +107,50 @@ h3 {
     height: auto; 
 } 
 
-.ta-span {
-  height: 3px;
-   border: 3px solid red;
-}
 
 /* JUMBOTRON - previous hero */
 
-.jumbotron {
-    margin-bottom: 20px;
+.ta-jumbotron-title {
+    padding-top: 20px;
     padding-bottom: 20px;
-    background-color: white;
 }
 
-.img-thumbnail.ta-img {
-    padding-bottom: 30px;
-    border: 1px solid transparent;
-    border-radius: 6%;
-}
+.img-responsive.ta-img {
+    margin-bottom: 30px;
+} 
 
 /* ABOUT section */
 
 .ta-about-title {
-    margin-top: 90px;
-    padding-bottom: 30px;
+    margin-top: 50px;
+    padding-bottom: 10px;
 }
 
 .btn-default.ta-button {
     background-color:  rgb(12, 223, 188);
     border: 1px solid #fff;
     color: #fff;
-    text-align: center;
 }
 
 .fa-download.ta-icon {
-    padding: 10px;
+    padding: 8px;
 }
+
+.button.text-center {
+    padding-top: 20px;
+}
+
+/* CONTACT section */
+
+.ta-span.blue {
+       background-color:  rgb(39, 39, 61);
+       color:  rgb(39, 39, 61);
+}
+
+.ta-span.blue i {
+    font-size: 40px;
+}
+
 
 /*FOOTER */
 

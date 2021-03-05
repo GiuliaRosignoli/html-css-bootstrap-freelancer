@@ -51,10 +51,10 @@
                 <img src="./img/avatar.svg" alt="avatar" class="ta-img-set">
                 <h1>START BOOTSTRAP</h1>
                 <!--Icon-->
-                <div class="vertical-align">
-                    <span class="ta-span">_________</span>
+                <div class="divider text-center">
+                    <span class="ta-span white"></span>
                     <i class="fas fa-star ta-icon"></i>
-                    <span class="ta-span">_________</span>
+                    <span class="ta-span white"></span>
                 </div>
                 <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
             </div>
@@ -66,32 +66,38 @@
         <section> 
             <!--JUMBOTRON-->
             <div class="full-width-white ta-bg"> 
-                <div class="jumbotron">
-                    <h2>PORTFOLIO</h2>
+                
+                    
                     <!--Columns x 6 -pictures-->
                         <div class="container">
+                            <h2 class="ta-jumbotron-title">PORTFOLIO</h2>
+                            <div class="divider text-center">
+                                <span class="ta-span blue"></span>
+                                <i class="fas fa-star ta-icon"></i>
+                                <span class="ta-span blue"></span>
+                            </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-4 col-lg-4">
-                                    <img class="img-thumbnail ta-img img-rounded" src="./img/cabin.png" alt="cabin">
+                                    <img class="img-responsive ta-img img-rounded" src="./img/cabin.png" alt="cabin">
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-4">
-                                    <img class="img-thumbnail ta-img img-rounded" src="./img/cake.png" alt="cake">
+                                    <img class="img-responsive ta-img img-rounded" src="./img/cake.png" alt="cake">
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-4">
-                                    <img class="img-thumbnail ta-img img-rounded" src="./img/circus.png" alt="circus">
+                                    <img class="img-responsive ta-img img-rounded" src="./img/circus.png" alt="circus">
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-4">
-                                    <img class="img-thumbnail ta-img img-rounded" src="./img/game.png" alt="game">
+                                    <img class="img-responsive ta-img img-rounded" src="./img/game.png" alt="game">
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-4">
-                                    <img class="img-thumbnail ta-img img-rounded" src="./img/safe.png" alt="safe">
+                                    <img class="img-responsive ta-img img-rounded" src="./img/safe.png" alt="safe">
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-lg-4">
-                                    <img class="img-thumbnail ta-img img-rounded" src="./img/submarine.png" alt="submarine">
+                                    <img class="img-responsive ta-img img-rounded" src="./img/submarine.png" alt="submarine">
                                 </div>
                             </div>
                         </div>
-                </div>
+    
             </div>
         </section>
         <!--ABOUT section-->
@@ -100,19 +106,21 @@
             <div class="full-width white-text"> 
                 <div class="container">
                     <h2 class="ta-about-title">ABOUT</h2>
-                    <div class="vertical-align">
-                        <span class="ta-span">_________</span>
+                    <div class="divider text-center">
+                        <span class="ta-span white"></span>
                         <i class="fas fa-star ta-icon"></i>
-                        <span class="ta-span">_________</span>
+                        <span class="ta-span white"></span>
                     </div>
                     <div class="row ta-space">
                         <div class="col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source file including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
                         <div class="col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">Whether you're a student looking to showcase your work, a professional looking to attract client, or a graphic artist looking to share your products, his template is the perfect starting point!</div>
                     </div>
-                    <button type="button" class="btn btn-default ta-button">
-                        <span><i class="fas fa-download ta-icon"></i></span>
-                        <span>Download</span>               
-                    </button>
+                        <div class=" button text-center"> 
+                            <button type="button" class="btn btn-default ta-button">
+                                <span><i class="fas fa-download ta-icon"></i></span>
+                                <span>Download</span>               
+                            </button>
+                       </div>
                 </div>
             </div>
         </section>
@@ -122,7 +130,32 @@
 
     <div class="container">
         <h2>CONTACT ME</h2>
-        <div class="col-sm-7 col-sm-offset-3 col-md-7 col-md-offset-3 col-lg-7 col-lg-offset-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ex? Natus illo dignissimos eius vitae doloremque velit doloribus aliquid placeat, porro laudantium? Blanditiis nulla recusandae, nobis dolore veniam similique consequuntur.</div>
+        <div class="divider text-center">
+            <span class="ta-span blue"></span>
+            <i class="fas fa-star ta-icon"></i>
+            <span class="ta-span blue"></span>
+        </div>
+        <div class="container">
+            <!--FORM-->
+            <div class="row">
+                <div class="col-sm-12 col-sm-offset-2 col-md-12 col-md-offset-2 col-lg-12 col-lg-offset-2"><form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Name</label>
+                      <input type="email" class="form-control" id="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Email Addresse</label>
+                      <input type="password" class="form-control" id="Email Addresse">
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone Number">Phone Number</label>
+                        <input type="Phone Number" class="form-control" id="Phone Number">
+                      </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
         <div class="upper-footer"> 
