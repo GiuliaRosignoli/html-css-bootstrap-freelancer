@@ -3,7 +3,11 @@ body {
     font-size: 1.5rem;
 }
 
-h1,
+h1 {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
 h2,
 h3 {
     font-size: 4rem;
