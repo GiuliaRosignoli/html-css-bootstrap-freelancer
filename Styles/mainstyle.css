@@ -1,4 +1,5 @@
 body {
+    padding-top: 70px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
 }
@@ -141,6 +142,22 @@ a:hover {
     background-color:  rgb(12, 223, 188);
     border: 1px solid #fff;
     color: #fff;
+    opacity: 1;
+    transition: background-color 0.3s,
+                color 03,
+                opacity 0.3s,
+                border 0.3s;
+}
+
+.btn-default.ta-button:hover {
+    transform: scale(1.5);
+}
+
+.btn-default.ta-button:active {
+    background-color: white;
+    color: rgb(12, 223, 188);
+    opacity: 0.6;
+    border: 1px solid rgb(39, 39, 61);;
 }
 
 .fa-download.ta-icon {
@@ -180,8 +197,12 @@ a:hover {
 
 .btn.btn-default.ta-submit {
     margin-top: 10px;
+    padding: 12px;
+    padding-left: 18x;
+    padding-right: 18px;
     background-color:  rgb(12, 223, 188);
     color: #fff;
+    border-radius: 5px;
 }
 
 /*FOOTER */
@@ -232,4 +253,11 @@ footer .lower-footer {
     left: 600px;
     padding: 50px;
     color: #fff;
+}
+
+    .social-1:hover, .social-2:hover, .social-3:hover, .social-4:hover {
+    transform: scale(1.5);
+    background-color: white;
+    color:  rgb(12, 223, 188);;
+    
 }
