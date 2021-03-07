@@ -1,5 +1,4 @@
 body {
-    padding-top: 70px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
 }
@@ -16,7 +15,7 @@ h3 {
 }
 
 a:not(#ta-link ) {
-    color: #fff;
+    color: #fff; 
 }
 
 a:hover {
@@ -59,6 +58,7 @@ a:hover {
 .ta-span.white {
     background-color: #fff;
 }
+
 
 /* HEADER */
 
@@ -248,9 +248,11 @@ footer .lower-footer {
     border-radius: 50%;
 }
 
-.lower-footer-text {
+footer {
     position: relative;
-    left: 600px;
+}
+
+.lower-footer .lower-footer-text {
     padding: 50px;
     color: #fff;
 }
@@ -259,5 +261,5 @@ footer .lower-footer {
     transform: scale(1.5);
     background-color: white;
     color:  rgb(12, 223, 188);;
-    
 }
+
