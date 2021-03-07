@@ -238,14 +238,14 @@ footer .lower-footer {
     margin-top: 15px;
     padding: 12px;
     padding-top: 20px;
-    padding-right: 30px; 
-    font-size: 12px;    
+    font-size: 20px;    
     color: #fff;
 }
 
 .ta-footer-icons .fab.circle {
-    padding: 12px;
     margin-right: 10px;
+    padding: 12px;
+    padding-right: 10px;
     border: 1px solid white;
     border-radius: 50%;
 }
@@ -284,25 +284,5 @@ footer .lower-footer {
     h3 {
         font-size: 4.5rem;
     }
-
-    /* Sections */
-
-    .navbar.navbar-default.ta-nav-set {
-        background-color: #008080;
-    }
-
-    footer .upper-footer {
-        background-color: #A9A9A9;
-    }
-
-    footer .lower-footer {
-        background-color: #008080;
-    }
-
-    #ta-link .ta-footer-link {
-        color: rgb(11, 11, 61);
-        text-decoration: none;
-    }
 }
-
 
